@@ -56,12 +56,12 @@
 ## Completed
 
 - [x] [Facebook](https://www.facebook.com/)
-- [x] [无需身份验证即可抓取Twitter前端API](https://twitter.com/)
 - [x] [微博网页版](http://weibo.com)
 - [x] [知乎](http://zhihu.com)
 - [x] [QQZone](https://qzone.qq.com/)
 - [x] [CSDN](https://www.csdn.net/)
-- [x] [淘宝](www.taobao.com)
+- [x] [淘宝-接口修复完成-可用](https://login.taobao.com/member/login.jhtml)
+- [x] [CSDN--已重构](https://www.csdn.net/)
 - [x] [Baidu](www.baidu.com)
 - [x] [果壳](https://www.guokr.com/)
 - [x] [JingDong 模拟登录和自动申请京东试用](https://www.jd.com/)
@@ -69,29 +69,31 @@
 - [x] [拉钩](https://www.lagou.com/)
 - [x] [Bilibili](https://www.bilibili.com/)
 - [x] [豆瓣](https://www.douban.com/)
-- [x] [Baidu2](www.baidu.com)
+- [x] [豆瓣spider](https://www.douban.com/)
+- [x] [Baidu](www.baidu.com)
 - [x] [猎聘网](https://www.liepin.com/)
 - [x] [微信网页版登录并获取好友列表](https://wx.qq.com/)
 - [x] [Github](https://github.com/)
 - [x] [爬取图虫相应的图片](https://tuchong.com/)
 - [x] [网易云音乐](https://music.163.com/)
-- [x] [糗事百科](https://www.qiushibaike.com/)
+- [x] [糗事百科--改为协程版](https://www.qiushibaike.com/)
+- [x] [百度贴吧spider](https://tieba.baidu.com/)
+- [x] [百度翻译](https://fanyi.baidu.com/)
 
 ## catalogue
 - [x] [Facebook模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/facebook/facebook.py)
-- [x] [无需身份验证即可抓取Twitter前端API](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/twitter)
 - [x] [微博网页版模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/sina/sina.py)
 - [x] [知乎模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/zhihu/zhihu.py)
 - [x] [QQZone模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/qqzone/qq_zone.py)
-- [x] [CSDN模拟登录，已失效](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/csdn/csdn_login.py)
-- [x] [淘宝爬虫](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/taobao)
+- [x] [CSDN模拟登录--已恢复](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/csdn/csdn_login.py)
+- [x] [淘宝爬虫--重构中](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/taobao)
 - [x] [Baidu模拟登录一](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/baidu)
 - [x] [果壳爬虫程序](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/guoke)
 - [x] [JingDong 模拟登录和自动申请京东试用](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/jd_login)
-- [x] [163mail已失效待重构](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/163email/163email.py)
-- [x] [拉钩模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/lagou/Lagou.py)
+- [x] [163mail--已恢复](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/163email/163email.py)
+- [x] [拉钩模拟登录--已失效](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/lagou/Lagou.py)
 - [x] [Bilibili模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/bilibili/bilibili.py)
-- [x] [豆瓣待更新](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/douban/douban.py)
+- [x] [豆瓣](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/douban/douban.py)
 - [x] [Baidu2模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/baidu2/baidu.py)
 - [x] [猎聘网模拟登录](https://github.com/CriseLYJ/awesome-python-login-model/tree/master/liepin)
 - [x] [微信网页版登录并获取好友列表](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/webWeixin/webWeixin.py)
@@ -99,79 +101,15 @@
 - [x] [爬取图虫想要的图片](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/tuchong/tuchong.py)
 - [x] [网易云音乐downloader](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/NeteaseCloudMusicDownload/wangyiyun_spider.py)
 - [x] [糗事百科爬虫](https://github.com/CriseLYJ/awesome-python-login-model/blob/master/qsbk/qiushibaike.py)
-
-## Test
-
-### Bilibili自动登录测试正常，成功率98%
-
-![](./images/bilibili.gif)
-
-![](./images/bilibili.jpg)
-
-### web微信
-
-![](./images/weixin.gif)
-
-![Alt text](./images/weixin.jpg)
-
-### 图虫Spider
-
-![](./images/tuchong.gif)
-
-![](./images/tuchong.jpg)
-
-### 淘宝web
-- taobao.py为模拟登录
-- 剩下的文件为爬虫
-
-### Github
-
-![](./images/github.jpg)
-
-### 新增链家Spider
-
-![](./images/lianjia.gif)
-
-```
-1. 爬取淘宝各子标签，按销量排名商品信息，按分类保存至MongoDB
-2. 通过pandas进行数据分析
-3 .将商品在各省分布、销量排行、地图分布等通过matplotlib绘图显示
-```
-
-### guoke.spider使用需谨慎，下载的比较快！10秒能下载一堆，截图我就不展示了，已经删除,东西太多了😝
-
-### 微博
-- sina.py为模拟登录
-- spider文件夹中为爬虫
-
-```
-1. 输入要爬取的博主ID，获取ajax请求
-2. 解析json数据，爬取博主所有微博，保存至MySQL
-
-```
-
-### 网易云音乐
-- 新增网易云音乐下载，之前的一个小demo应该还可以用，Crypto包应该挺难搞的，安装之后还是导入不了，推荐去百度一下，百度上的这个解决方法有很多，我就不多赘述了嘿嘿！
-
-### 知乎
-- 知乎登录没有问题，不过要手动输入验证码
-
-- 知乎登录遇到“execjs._exceptions.ProgramError: TypeError: 'exports' 未定义”
-- 原因以及解决办法：
-```
-1. 由于是你本地的JScript引擎只有一个默认的JScript，所以会造成json未定义的错误。
-2. execjs会自动使用当前电脑上的运行时环境
-3. 解决办法：安装一个nodejs的V8引擎就可以了
-```
-
-![](./images/zhihu.jpg)
+- [x] [淘宝登陆-访问](https://login.taobao.com/member/login.jhtml)
 
 
-### 糗事百科
+# Test
 
-![](./images/qiushibaike.gif)
+> [Please touch here to view test images](./README-Test.md)
 
-![](./images/qiushibaike.jpg)
+## Informations
+- 为感谢你们的支持，准备写一套免费爬虫的教程，保证你学会以后可以爬取市面上大部分的网站，[教程地址](https://github.com/CriseLYJ/-Python-crawler-starts-from-zero)
 
 ## tips of pull request 
 
@@ -185,17 +123,16 @@
 - 如果该repo对大家有帮助，给个star鼓励鼓励吧
 
 
-## Have something to say❗️❗️(Important)
-- 今天有人给我说了一些东西，他说：”你今天开源这些东西会让别人容易的反爬虫“。对，我知道，当然我很清楚这些，但是人生总是需要一些挑战不是吗？兄弟？我认为当我攻破他们防守的时刻，才是最刺激的，不是吗？如果没人反抗，我做这些才是真的毫无意义，只有真正的攻与守，才能促使我们进步，时代在变兄弟，科技也在变，安于现状，才是错误的根本原因!
-- 希望你们不要安于现状，生活处处是惊喜！
-
 ## 🎉Life is fantastic🥳! bro💪~
 
 ## Acknowledgments
 
+> [@deepforce](https://github.com/deepforce) | [@cclauss](https://github.com/cclauss) | [ksoeasyxiaosi](https://github.com/ksoeasyxiaosi)
+- 欢迎更多的人来提pr~
 - Thanks for all 🎉
 
 ## 联系我
+- 欢迎反馈！
 - My Email : criselyj@163.com
 
 ## 注意：
